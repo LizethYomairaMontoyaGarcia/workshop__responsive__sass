@@ -1,11 +1,11 @@
-const path = require('path');
-const HTMLWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: {
     //sirve para indicar el archivo de Javascript de entrada de este proyecto.
-    app: ["@babel/polyfill", "./src/app/index.js"]
+    app: ["@babel/polyfill", "./src/app/index.js"],
   },
   output: {
     //En este archivo estamos configurando  el directorio de salida de los paquetes (bundles) generados.
@@ -14,49 +14,46 @@ module.exports = {
     filename: "js/app.bundle.js",
   },
   devServer: {
-    port: 5050
-},
-mode: "development",
-module: {
+    port: 5050,
+  },
+  mode: "development",
+  module: {
     //sirve para aclararle a Webpack cómo debe procesar los loaders que queramos usar para un proyecto.
     rules: [
-        {
-            test: /\.js$/i,
-            loader: 'babel-loader'
-        },
-        {
-            test: /\.css$/i,
-            use: [MiniCssExtractPlugin.loader, 'css-loader'],
-        },
-        {
-            test: /\.html$/,
-            use: ['html-loader'],
-        },
-
-    ]
-},
-plugins: [
-    //sirve para definir los plugins que vamos a usar, que permiten ampliar la cantidad y el tipo 
-    //de tareas que Webpack puede realizar por sí mismo. Generalmente las transformaciones de los 
+      {
+        test: /\.js$/i,
+        loader: "babel-loader",
+      },
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
+    ],
+  },
+  plugins: [
+    //sirve para definir los plugins que vamos a usar, que permiten ampliar la cantidad y el tipo
+    //de tareas que Webpack puede realizar por sí mismo. Generalmente las transformaciones de los
     //loaders se basan en algún plugin, aunque no siempre es así. En la propiedad plugins tenemos que
-    // instanciar los objetos de cada plugin que queremos usar y que nos den soporte a aquellas 
+    // instanciar los objetos de cada plugin que queremos usar y que nos den soporte a aquellas
     //transformaciones o tareas deseadas.
     new HTMLWebpackPlugin({
-        hash: true,
-        template: './src/index.html',
-        minify: {
-            collapseWhitespace:
-                true,
-            removeComments: true,
-            removeRedundantAttributes: true,
-            removeScriptTypeAttributes: true,
-            removeStyleLinkTypeAttributes: true,
-            useShortDoctype: true
-        }
-
+      hash: true,
+      template: "./src/index.html",
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
     }),
     new MiniCssExtractPlugin({
-        filename: 'css/app.bundle.css'
+      filename: "css/app.bundle.css",
     }),
-]
-}
+  ],
+};

@@ -1,15 +1,43 @@
-@import '../variables' ;
+@import "../loginUserStyles/variables";
 
-nav{
-    .class__list{
-        .list__desplegables{
-            display: flex;
-            color: $color-terciario;
-        }
-    }
+body {
+  background-color: $color-primary;
+  padding: 20px;
+  
 }
+.header {
+  display: flex;
+  background-color: $color-primary;
+  
+  &__figure {
+    float: left;
+    width: 60px;
+    height: 50px;
+  }
+  ul {
+    list-style-type: none;
+  }
 
-img {
-width: 200px;
+  &__ul {
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+  li {
+    background-color: $color-primary;
+  }
+
+  button {
+    border: none;
+    background-color: $color-primary;
+    color: $color-secundary;
+  }
+  &__button {
+    
+   float: right;
+    
+  }
 }
-

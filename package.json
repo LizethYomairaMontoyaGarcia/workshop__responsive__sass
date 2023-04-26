@@ -68,9 +68,6 @@
   "mini-css-extract-plugin": "^2.7.5",
   
     
-  "sass": "^1.62.0",
-  
-    
   "style-loader": "^3.3.2",
   
     
@@ -85,9 +82,6 @@
   },
   
   "devDependencies": {
-  
-    
-  "file-loader": "^6.2.0",
   
     
   "gh-pages": "^5.0.0"

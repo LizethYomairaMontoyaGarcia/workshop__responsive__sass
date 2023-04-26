@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  background-color: #FFFFFF;
+}
+.header__figure {
+  float: left;
+  width: 60px;
+  height: 50px;
+}
+.header ul {
+  list-style-type: none;
+}
+.header__ul {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header li {
+  background-color: #FFFFFF;
+}
+.header button {
+  border: none;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.header__button {
+  float: right;
+}
+
+/*# sourceMappingURL=styles.css.map */

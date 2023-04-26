@@ -1,5 +1,23 @@
-/*!*************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/styles.css ***!
-  \*************************************************************************/
+/*!*************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/indexStyles/styles.css ***!
+  \*************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+/*!*****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/indexStyles/styles.css (1) ***!
+  \*****************************************************************************************/
+body {
+  background-color: #FFFFFF;
+}
 
+.header_info_login {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.header_login_button {
+  text-decoration: none;
+}
+.header_fugure img {
+  width: 45px;
+}
 

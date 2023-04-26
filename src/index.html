@@ -17,92 +17,92 @@
   </head>
   <body>
     <header class="header">
-      <img src="./images/logo.svg" alt="logo" class="header__figure" />
-      <ul class="header__ul">
-        <li class="nav_list__desplegables">
-          <div class="dropdown">
-            <button
-              class="btn dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Feature
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item"
-                  ><img
-                    src="./images/icon-todo.svg"
-                    alt="todo"
-                    width="15px"
-                    class="feacture-iconos"
-                  />
-                  Todo list</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item">
-                  <img
-                    src="./images/icon-calendar.svg"
-                    alt="Calendar"
-                    width="15px"
-                    class="feacture-iconos"
-                  />Calendar</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item">
-                  <img
-                    src="./images/icon-reminders.svg"
-                    alt="Reminders"
-                    width="15px"
-                    class="feacture-iconos"
-                  />Reminders</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item">
-                  <img
-                    src="./images/icon-planning.svg"
-                    alt="Planning"
-                    width="15px"
-                    class="feacture-iconos"
-                  />Planning</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
+      <div class="header__logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <nav class="header__nav">
+        <div>
+          <ul class="header__ul">
+            <li class="nav_list__desplegables">
+              <div class="dropdown">
+                <button class="btn" type="button" data-bs-toggle="dropdown">
+                  Feature
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item"
+                      ><img
+                        src="./images/icon-todo.svg"
+                        alt="todo"
+                        width="15px"
+                        class="feacture-iconos"
+                      />
+                      Todo list</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item">
+                      <img
+                        src="./images/icon-calendar.svg"
+                        alt="Calendar"
+                        width="15px"
+                        class="feacture-iconos"
+                      />Calendar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item">
+                      <img
+                        src="./images/icon-reminders.svg"
+                        alt="Reminders"
+                        width="15px"
+                        class="feacture-iconos"
+                      />Reminders</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item">
+                      <img
+                        src="./images/icon-planning.svg"
+                        alt="Planning"
+                        width="15px"
+                        class="feacture-iconos"
+                      />Planning</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
 
-        <li class="nav_list__desplegables">
-          <div class="dropdown">
-            <button
-              class="btn dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Company
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item">History</a></li>
-              <li><a class="dropdown-item">Our team</a></li>
-              <li>
-                <a class="dropdown-item">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </li>
+            <li class="nav_list__desplegables">
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item">History</a></li>
+                  <li><a class="dropdown-item">Our team</a></li>
+                  <li>
+                    <a class="dropdown-item">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
 
-        <li>Careers</li>
-        <li>About</li>
-        <nav class="header__button">
-          <button>Login</button>
-
-          <button>Register</button>
-        </nav>
-      </ul>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__button">
+        <button class="header__buttonLogin">Login</button>
+        <button class="header__buttonRegister">Register</button>
+      </div>
     </header>
 
     <script

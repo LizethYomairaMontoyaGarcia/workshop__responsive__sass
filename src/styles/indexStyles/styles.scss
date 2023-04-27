@@ -1,15 +1,62 @@
-@import '../variables' ;
+@import 'fonts.scss';
+@import 'selector.scss';
+@import 'variables.scss';
 
-nav{
-    .class__list{
-        .list__desplegables{
-            display: flex;
-            color: $color-terciario;
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 3rem 14rem 3rem 14rem;
+
+    &__principal {
+        display:flex ;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        h1 {
+            font-family: $family;
+            font-weight: 20rem;
+            font-size: 4.5rem;
+            margin-bottom: 30px;
         }
+        span{
+            display: block;
+        }
+    }
+    &__persona{
+        img{
+            width: 25rem;
+            height: auto;
+        }
+    }
+    &__texto{
+        width: 79%;
+        font-family: $family;
+        font-size: $size-leter;
+        color: $color-terciario;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    &__learn__more{
+        border: 1rem solid $color-secundary;
+        border-radius: 15px;
+        background-color: $color-secundary;
+        font-family: $family;
+        color: $color-primary;
+        font-size: $size-leter;
+        width: 27%;
+        
+    }
+    &__colaboradores{
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin-top: 13%;
+        }
+       
+
     }
 }
 
-img {
-width: 200px;
-}
 

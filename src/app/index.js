@@ -1,3 +1,3 @@
-//import "../index.html"
-import "../styles/styles.css"
+
+import "../styles/indexStyles/styles.css"
 import "../index.html"

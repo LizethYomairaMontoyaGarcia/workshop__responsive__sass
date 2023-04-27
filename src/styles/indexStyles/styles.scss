@@ -1,64 +1,61 @@
-@import 'fonts.scss';
-@import 'selector.scss';
-@import 'variables.scss';
+@import "fonts.scss";
+@import "selector.scss";
+@import "variables.scss";
 @import "../indexStyles/variables";
 
 .main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 3rem 14rem 3rem 14rem;
+
+  &__principal {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 3rem 14rem 3rem 14rem;
+    flex-direction: column;
+    gap: 1.5rem;
 
-    &__principal {
-        display:flex ;
-        flex-direction: column;
-        gap: 1.5rem;
-
-        h1 {
-            font-family: $family;
-            font-weight: 20rem;
-            font-size: 4.5rem;
-            margin-bottom: 30px;
-        }
-        span{
-            display: block;
-        }
+    h1 {
+      font-family: $family;
+      font-weight: 20rem;
+      font-size: 4.5rem;
+      margin-bottom: 30px;
     }
-    &__persona{
-        img{
-            width: 25rem;
-            height: auto;
-        }
+    span {
+      display: block;
     }
-    &__texto{
-        width: 79%;
-        font-family: $family;
-        font-size: $size-leter;
-        color: $color-terciario;
-        line-height: 25px;
-        margin-bottom: 30px;
+  }
+  &__persona {
+    img {
+      width: 25rem;
+      height: auto;
     }
-    &__learn__more{
-        border: 1rem solid $color-secundary;
-        border-radius: 15px;
-        background-color: $color-secundary;
-        font-family: $family;
-        color: $color-primary;
-        font-size: $size-leter;
-        width: 27%;
-        
+  }
+  &__texto {
+    width: 79%;
+    font-family: $family;
+    font-size: $size-leter;
+    color: $color-terciario;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  &__learn__more {
+    border: 1rem solid $color-secundary;
+    border-radius: 15px;
+    background-color: $color-secundary;
+    font-family: $family;
+    color: $color-primary;
+    font-size: $size-leter;
+    width: 27%;
+  }
+  &__colaboradores {
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+      margin-top: 13%;
     }
-    &__colaboradores{
-        ul {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-            margin-top: 13%;
-        }
-       
-      }
-    }
-
+  }
+}
 
 body {
   background-color: $color-primary;
@@ -68,11 +65,8 @@ body {
   display: flex;
   background-color: $color-primary;
   align-items: baseline;
-
-  &__logo {
-    font-size: 30px;
-    align-items: center;
-  }
+  padding: 3rem 5rem 3rem 5rem;
+  justify-content: center;
 
   &__ul {
     display: flex;
@@ -94,7 +88,8 @@ body {
   &__button {
     display: flex;
     margin-left: auto;
-    padding: 0 40px;
+
+    column-gap: 20px;
     :hover {
       color: #000000;
       border: 2px solid;
@@ -111,7 +106,41 @@ body {
     padding: 2px;
     width: 20px;
   }
+  &__imgDropdown {
+    display: none;
+  }
+  &__logo__dropdown {
+    display: flex;
+  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+
+    &__nav {
+      margin-left: auto;
+    }
+    &__ul {
+      flex-direction: column;
+    }
+    &__button {
+      flex-direction: column;
+      column-gap: 0px;
+    }
+    li {
+      padding: 0;
+    }
+    &__imgDropdown {
+      display: flex;
+      padding-right: 8px;
+      align-self: self-end;
+    }
+    .nav__items {
+      display: none;
+    }
+    .nav__toggle__show{
+display: flex;
+    }
+  }
 }

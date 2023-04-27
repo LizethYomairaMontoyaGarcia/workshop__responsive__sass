@@ -64,10 +64,8 @@ body {
   display: flex;
   background-color: #FFFFFF;
   align-items: baseline;
-}
-.header__logo {
-  font-size: 30px;
-  align-items: center;
+  padding: 3rem 5rem 3rem 5rem;
+  justify-content: center;
 }
 .header__ul {
   display: flex;
@@ -88,7 +86,7 @@ body {
 .header__button {
   display: flex;
   margin-left: auto;
-  padding: 0 40px;
+  column-gap: 20px;
 }
 .header__button :hover {
   color: #000000;
@@ -103,6 +101,42 @@ body {
 .header__feactureIconos {
   padding: 2px;
   width: 20px;
+}
+.header__imgDropdown {
+  display: none;
+}
+.header__logo__dropdown {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__nav {
+    margin-left: auto;
+  }
+  .header__ul {
+    flex-direction: column;
+  }
+  .header__button {
+    flex-direction: column;
+    column-gap: 0px;
+  }
+  .header li {
+    padding: 0;
+  }
+  .header__imgDropdown {
+    display: flex;
+    padding-right: 8px;
+    align-self: self-end;
+  }
+  .header .nav__items {
+    display: none;
+  }
+  .header .nav__toggle__show {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

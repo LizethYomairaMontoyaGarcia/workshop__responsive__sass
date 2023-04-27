@@ -1,58 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&family=Rubik:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&family=Rubik:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&family=Rubik:ital,wght@1,300&display=swap");
-body {
-  background-color: #FFFFFF;
-  padding: 10px;
-}
-
-.header {
-  display: flex;
-  background-color: #FFFFFF;
-  align-items: baseline;
-}
-.header__logo {
-  font-size: 30px;
-  align-items: center;
-}
-.header__ul {
-  display: flex;
-  align-items: center;
-}
-.header li {
-  padding: 0 10px 0 0;
-}
-.header__nav ul li {
-  list-style: none;
-}
-.header__nav ul li a {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 0 10px;
-  align-items: center;
-}
-.header__button {
-  display: flex;
-  margin-left: auto;
-  padding: 0 40px;
-}
-.header__button :hover {
-  color: #000000;
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-}
-.header__buttonLogin, .header__buttonRegister {
-  border: none;
-  background-color: #FFFFFF;
-}
-.header__feactureIconos {
-  padding: 2px;
-  width: 20px;
-}
-
-/*# sourceMappingURL=styles.css.map */
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -105,6 +53,56 @@ body {
   list-style: none;
   gap: 30px;
   margin-top: 13%;
+}
+
+body {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  background-color: #FFFFFF;
+  align-items: baseline;
+}
+.header__logo {
+  font-size: 30px;
+  align-items: center;
+}
+.header__ul {
+  display: flex;
+  align-items: center;
+}
+.header li {
+  padding: 0 10px 0 0;
+}
+.header__nav ul li {
+  list-style: none;
+}
+.header__nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 10px;
+  align-items: center;
+}
+.header__button {
+  display: flex;
+  margin-left: auto;
+  padding: 0 40px;
+}
+.header__button :hover {
+  color: #000000;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+}
+.header__buttonLogin, .header__buttonRegister {
+  border: none;
+  background-color: #FFFFFF;
+}
+.header__feactureIconos {
+  padding: 2px;
+  width: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

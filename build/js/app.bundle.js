@@ -3180,14 +3180,14 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 
 /***/ }),
 
-/***/ "./src/app/index.js":
+/***/ "./src/app/index.js?5a38":
 /*!**************************!*\
   !*** ./src/app/index.js ***!
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_indexStyles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/indexStyles/styles.css */ \"./src/styles/indexStyles/styles.css?0c6d\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index.html */ \"./src/index.html\");\n\n\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/app/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_indexStyles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/indexStyles/styles.css */ \"./src/styles/indexStyles/styles.css?0c6d\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index.html */ \"./src/index.html\");\n\n\nfunction classToggle() {\n  console.log(\"class despliegue\");\n  var items = document.querySelectorAll(\".nav__items\");\n  //seteando una nueva clase al elemnto\n  items.forEach(function (item) {\n    return item.classList.toggle(\"nav__toggle__show\");\n  });\n}\nvar menu = document.querySelector(\".header__imgDropdown\");\nmenu.addEventListener(\"click\", classToggle);\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/app/index.js?");
 
 /***/ }),
 
@@ -3198,7 +3198,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./styles/indexStyles/styles.css */ \"./src/styles/indexStyles/styles.css?2377\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-databiz.svg */ \"./src/images/client-databiz.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-audiophile.svg */ \"./src/images/client-audiophile.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-meet.svg */ \"./src/images/client-meet.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-maker.svg */ \"./src/images/client-maker.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./images/image-hero-desktop (1).png */ \"./src/images/image-hero-desktop (1).png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n  <head>\\r\\n    <meta charset=\\\"UTF-8\\\" />\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" />\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\" />\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\">\\r\\n    \\r\\n   \\r\\n    <title>Document</title>\\r\\n  </head>\\r\\n  <body>\\r\\n   \\r\\n    <main class=\\\"main\\\">\\r\\n      <section class=\\\"main__principal\\\">\\r\\n        <h1 class=\\\"main__titulo\\\">Make <span> remote work </span></h1>\\r\\n        <div class=\\\"main__texto\\\">\\r\\n          <p>Get your team in sync, no matter your location</p>\\r\\n          <p>Streamline processes, creat team rituals, and watch producity soar</p>\\r\\n        </div>\\r\\n        <button class=\\\"main__learn__more\\\">Larn More</button>\\r\\n        <div class=\\\"main__colaboradores\\\">\\r\\n          <div>\\r\\n            <ul>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"\\\" >\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\" >\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"\\\" >\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"\\\" >\\r\\n              </li>\\r\\n              \\r\\n            </ul>\\r\\n          </div>\\r\\n        </div>\\r\\n      </section>\\r\\n      <section class=\\\"main__persona\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"\\\">\\r\\n\\r\\n      </section>\\r\\n\\r\\n    </main>\\r\\n  </body>\\r\\n</html>\\r\\n\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./styles/indexStyles/styles.css */ \"./src/styles/indexStyles/styles.css?2377\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./images/logo.svg */ \"./src/images/logo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/icon-menu.svg */ \"./src/images/icon-menu.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-arrow-down.svg */ \"./src/images/icon-arrow-down.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-todo.svg */ \"./src/images/icon-todo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-calendar.svg */ \"./src/images/icon-calendar.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-reminders.svg */ \"./src/images/icon-reminders.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-planning.svg */ \"./src/images/icon-planning.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-databiz.svg */ \"./src/images/client-databiz.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-audiophile.svg */ \"./src/images/client-audiophile.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-meet.svg */ \"./src/images/client-meet.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-maker.svg */ \"./src/images/client-maker.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./images/image-hero-desktop (1).png */ \"./src/images/image-hero-desktop (1).png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ./app/index.js */ \"./src/app/index.js?3091\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./app/button.js */ \"./src/app/button.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);\nvar ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);\nvar ___HTML_LOADER_REPLACEMENT_13___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_13___);\nvar ___HTML_LOADER_REPLACEMENT_14___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_14___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n  <head>\\r\\n    <meta charset=\\\"UTF-8\\\" />\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" />\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\" />\\r\\n\\r\\n    <title>Snap</title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" />\\r\\n    <link\\r\\n      href=\\\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\\\"\\r\\n      rel=\\\"stylesheet\\\"\\r\\n      integrity=\\\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\\\"\\r\\n      crossorigin=\\\"anonymous\\\"\\r\\n    />\\r\\n  </head>\\r\\n\\r\\n  <body>\\r\\n    <header class=\\\"header\\\">\\r\\n      <div class=\\\"header__logo\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"logo\\\" />\\r\\n      </div>\\r\\n      <div class=\\\"header__imgDropdown\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\" />\\r\\n      </div>\\r\\n\\r\\n      <button type=\\\"submit\\\"></button>\\r\\n\\r\\n      <nav class=\\\"header__nav nav__items\\\">\\r\\n        <ul class=\\\"header__ul\\\">\\r\\n          \\r\\n          <li class=\\\"nav_list__desplegables\\\">\\r\\n            <div class=\\\"header__dropdown\\\">\\r\\n              <button\\r\\n                onclick=\\\"myFunction('featureDropdown')\\\"\\r\\n                class=\\\"header__dropbtn__feature\\\"\\r\\n              >\\r\\n                Feature\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"flecha abajo\\\" />\\r\\n              </button>\\r\\n              <div id=\\\"featureDropdown\\\" class=\\\"header__dropdown__feature\\\">\\r\\n                <a>\\r\\n                  <img\\r\\n                    src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\"\\r\\n                    alt=\\\"todo\\\"\\r\\n                    width=\\\"15px\\\"\\r\\n                    class=\\\"header__feactureIconos\\\"\\r\\n                  />Todo list</a\\r\\n                >\\r\\n                <a>\\r\\n                  <img\\r\\n                    src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\"\\r\\n                    alt=\\\"Calendar\\\"\\r\\n                    width=\\\"15px\\\"\\r\\n                    class=\\\"header__feactureIconos\\\"\\r\\n                  />Calendar</a\\r\\n                >\\r\\n                <a>\\r\\n                  <img\\r\\n                    src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\"\\r\\n                    alt=\\\"Reminders\\\"\\r\\n                    width=\\\"15px\\\"\\r\\n                    class=\\\"header__feactureIconos\\\"\\r\\n                  />Reminders</a\\r\\n                >\\r\\n                <a>\\r\\n                  <img\\r\\n                    src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\"\\r\\n                    alt=\\\"Planning\\\"\\r\\n                    width=\\\"15px\\\"\\r\\n                    class=\\\"header__feactureIconos\\\"\\r\\n                  />Planninf</a\\r\\n                >\\r\\n              </div>\\r\\n            </div>\\r\\n          </li>\\r\\n\\r\\n          <li class=\\\"nav_list__desplegables\\\">\\r\\n            <div class=\\\"header__dropdown\\\">\\r\\n              <button\\r\\n                onclick=\\\"myFunction('companyDropdown')\\\"\\r\\n                class=\\\"header__dropbtn__company\\\"\\r\\n              >\\r\\n                Company\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"flecha abajo\\\" />\\r\\n              </button>\\r\\n              <div id=\\\"companyDropdown\\\" class=\\\"header__dropdown__company\\\">\\r\\n                <a> History</a>\\r\\n                <a> Our team</a>\\r\\n                <a> Blog</a>\\r\\n              </div>\\r\\n            </div>\\r\\n          </li>\\r\\n\\r\\n          <li>Careers</li>\\r\\n          <li>About</li>\\r\\n        </ul>\\r\\n      </nav>\\r\\n      <div class=\\\"header__button nav__items\\\">\\r\\n        <button class=\\\"header__buttonLogin\\\">Login</button>\\r\\n        <button class=\\\"header__buttonRegister\\\">Register</button>\\r\\n      </div>\\r\\n    </header>\\r\\n\\r\\n    <main class=\\\"main\\\">\\r\\n      <section class=\\\"main__principal\\\">\\r\\n        <h1 class=\\\"main__titulo\\\">Make <span> remote work </span></h1>\\r\\n        <div class=\\\"main__texto\\\">\\r\\n          <p>Get your team in sync, no matter your location</p>\\r\\n          <p>\\r\\n            Streamline processes, creat team rituals, and watch producity soar\\r\\n          </p>\\r\\n        </div>\\r\\n        <button class=\\\"main__learn__more\\\">Larn More</button>\\r\\n        <div class=\\\"main__colaboradores\\\">\\r\\n          <div>\\r\\n            <ul>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\" alt=\\\"\\\" />\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\" alt=\\\"\\\" />\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\" alt=\\\"\\\" />\\r\\n              </li>\\r\\n              <li>\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_11___ + \"\\\" alt=\\\"\\\" />\\r\\n              </li>\\r\\n            </ul>\\r\\n          </div>\\r\\n        </div>\\r\\n      </section>\\r\\n\\r\\n      <section class=\\\"main__persona\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_12___ + \"\\\" alt=\\\"\\\" />\\r\\n      </section>\\r\\n    </main>\\r\\n\\r\\n    <\" + \"script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_13___ + \"\\\" type=\\\"module\\\"><\" + \"/script>\\r\\n    <\" + \"script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_14___ + \"\\\" type=\\\"text/javascript\\\"><\" + \"/script>\\r\\n  </body>\\r\\n</html>\\r\\n\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/index.html?");
 
 /***/ }),
 
@@ -3210,6 +3210,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/styles/indexStyles/styles.css?");
+
+/***/ }),
+
+/***/ "./src/app/button.js":
+/*!***************************!*\
+  !*** ./src/app/button.js ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"7ceffa2b6794288b6169.js\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/app/button.js?");
+
+/***/ }),
+
+/***/ "./src/app/index.js?3091":
+/*!**************************!*\
+  !*** ./src/app/index.js ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"f8c3a4f0d870dc7fe23d.js\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/app/index.js?");
 
 /***/ }),
 
@@ -3268,6 +3290,72 @@ eval("module.exports = __webpack_require__.p + \"2d6ffbad4108ea24377c.svg\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/icon-arrow-down.svg":
+/*!****************************************!*\
+  !*** ./src/images/icon-arrow-down.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"bebf05132571af33611e.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-arrow-down.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-calendar.svg":
+/*!**************************************!*\
+  !*** ./src/images/icon-calendar.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"238c231afbc7d43b81c6.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-calendar.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-menu.svg":
+/*!**********************************!*\
+  !*** ./src/images/icon-menu.svg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"863803c904916606b7a1.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-menu.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-planning.svg":
+/*!**************************************!*\
+  !*** ./src/images/icon-planning.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"7264cc64a81fa348da1d.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-planning.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-reminders.svg":
+/*!***************************************!*\
+  !*** ./src/images/icon-reminders.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"d573f5028c4469edf76a.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-reminders.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-todo.svg":
+/*!**********************************!*\
+  !*** ./src/images/icon-todo.svg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"84eeba8f3b9a1811c1ea.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/icon-todo.svg?");
+
+/***/ }),
+
 /***/ "./src/images/image-hero-desktop (1).png":
 /*!***********************************************!*\
   !*** ./src/images/image-hero-desktop (1).png ***!
@@ -3276,6 +3364,17 @@ eval("module.exports = __webpack_require__.p + \"2d6ffbad4108ea24377c.svg\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"50cc22fddeb0c072b414.png\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/image-hero-desktop_(1).png?");
+
+/***/ }),
+
+/***/ "./src/images/logo.svg":
+/*!*****************************!*\
+  !*** ./src/images/logo.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"1c174ccea84ec59ff880.svg\";\n\n//# sourceURL=webpack://webpack-y-babel-13.04.2023/./src/images/logo.svg?");
 
 /***/ })
 
@@ -3413,7 +3512,7 @@ eval("module.exports = __webpack_require__.p + \"50cc22fddeb0c072b414.png\";\n\n
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	__webpack_require__("./node_modules/@babel/polyfill/lib/index.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/app/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/app/index.js?5a38");
 /******/ 	
 /******/ })()
 ;

@@ -1,3 +1,4 @@
+@import "queries";
 @import "fonts.scss";
 @import "selector.scss";
 @import "variables.scss";
@@ -8,17 +9,34 @@
   align-content: center;
   justify-content: center;
   padding: 3rem 14rem 3rem 14rem;
+  @include mobile {
+    flex-direction: column-reverse;
+  }
 
   &__principal {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+    }
 
     h1 {
       font-family: $family;
       font-weight: 20rem;
       font-size: 4.5rem;
       margin-bottom: 30px;
+      @include mobile {
+       font-size: 32px;
+       display: flex;
+       width: 100vw;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       gap: 8px;
+      }
     }
     span {
       display: block;
@@ -29,6 +47,14 @@
       width: 25rem;
       height: auto;
     }
+    @include mobile {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      padding: 0%;
+      
+
+    }
   }
   &__texto {
     width: 79%;
@@ -37,6 +63,11 @@
     color: $color-terciario;
     line-height: 25px;
     margin-bottom: 30px;
+    @include mobile {
+      text-align: center;
+      width: 100vw;
+
+    }
   }
   &__learn__more {
     border: 1rem solid $color-secundary;
@@ -46,6 +77,12 @@
     color: $color-primary;
     font-size: $size-leter;
     width: 27%;
+    @include mobile {
+      text-align: center;
+      width: 50vw;
+
+    }
+    
   }
   &__colaboradores {
     ul {
@@ -53,6 +90,13 @@
       list-style: none;
       gap: 30px;
       margin-top: 13%;
+    }
+    @include mobile {
+      width: 100vw;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 20px;
+
     }
   }
 }

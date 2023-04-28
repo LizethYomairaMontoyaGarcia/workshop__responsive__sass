@@ -81,7 +81,7 @@ body {
   border: none;
   cursor: pointer;
 }
-.header__dropbtn {
+.header__dropbtn-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -165,4 +165,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles..css.map */

@@ -28,13 +28,17 @@
 
       <nav class="header__nav nav__items">
         <ul class="header__ul">
+          
           <li class="nav_list__desplegables">
             <div class="header__dropdown">
-              <button onclick="myFunction()" class="header__dropbtn">
+              <button
+                onclick="myFunction('featureDropdown')"
+                class="header__dropbtn__feature"
+              >
                 Feature
                 <img src="./images/icon-arrow-down.svg" alt="flecha abajo" />
               </button>
-              <div id="myDropdown" class="header__dropdown__content">
+              <div id="featureDropdown" class="header__dropdown__feature">
                 <a>
                   <img
                     src="./images/icon-todo.svg"
@@ -72,18 +76,19 @@
           </li>
 
           <li class="nav_list__desplegables">
-            <div class="dropdown">
-              <button class="btn" type="button" data-bs-toggle="dropdown">
+            <div class="header__dropdown">
+              <button
+                onclick="myFunction('companyDropdown')"
+                class="header__dropbtn__company"
+              >
                 Company
                 <img src="./images/icon-arrow-down.svg" alt="flecha abajo" />
               </button>
-              <ul class="dropdown-menu">
-                <li><a>History</a></li>
-                <li><a>Our team</a></li>
-                <li>
-                  <a>Blog</a>
-                </li>
-              </ul>
+              <div id="companyDropdown" class="header__dropdown__company">
+                <a> History</a>
+                <a> Our team</a>
+                <a> Blog</a>
+              </div>
             </div>
           </li>
 

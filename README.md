@@ -1,6 +1,8 @@
 # Workshop 2 Landing page
 ## Contexto
 #### Se creo una landin page haciendo uso del preprocesador SASS, implementando diseño responsive con media queries, js, y git flow.
+## URL repositorio
+
 ## Vistas 
 ### Estructura de carpetas
 ![image](https://user-images.githubusercontent.com/126603617/235271440-65922312-be91-4a02-9d11-df9ca871ffbb.png)

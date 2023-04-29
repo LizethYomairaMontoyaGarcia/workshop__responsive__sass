@@ -1,0 +1,1 @@
+import"../styles/indexStyles/styles.css";import"../index.html";function classToggle(){console.log("class despliegue"),document.querySelectorAll(".nav__items").forEach((function(e){return e.classList.toggle("nav__toggle__show")}))}var menu=document.querySelector(".header__imgDropdown");menu.addEventListener("click",classToggle);
